@@ -8,7 +8,7 @@ const app = express();
 let items = ['Buy Food', 'Cook Food', 'Eat Food'];
 let workItems = [];
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');    //view ejs file after ejs setup
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
